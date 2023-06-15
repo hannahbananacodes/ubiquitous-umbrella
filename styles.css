@@ -1,8 +1,9 @@
 
-#sunglasses {
-    width: 10%;
+img {
+    width: 120px;
     height: auto;
 }
+
 header, footer {
     background-color: #1F2937;
 }
@@ -23,3 +24,48 @@ header, footer {
     color: #1F2937;
 }
 
+#quote {
+    background-color: #E5E7EB;
+}
+
+#call {
+    background-color: #3882F6;
+}
+
+.blue-border {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 30px;
+    
+}
+
+.flex-container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    flex: 1;
+}
+
+body {
+    margin: 0px;
+}
+
+h3, footer {
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+}
