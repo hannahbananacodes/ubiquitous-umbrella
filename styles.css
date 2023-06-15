@@ -163,3 +163,6 @@ button {
     border-color: #F9FAF8;
 }
 
+#credit {
+    float: right;
+}
