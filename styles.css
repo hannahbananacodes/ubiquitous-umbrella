@@ -1,4 +1,9 @@
 
+* {
+    font-family: "Helvetica";
+}
+
+
 img {
     width: 120px;
     height: auto;
@@ -6,6 +11,7 @@ img {
 
 header, footer {
     background-color: #1F2937;
+    
 }
 
 #quote {
@@ -30,6 +36,8 @@ header, footer {
 
 #call {
     background-color: #3882F6;
+    margin: 30px;
+    border-radius: 10px;
 }
 
 .blue-border {
@@ -42,6 +50,10 @@ header, footer {
 
 .flex-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 70px;
 }
 
 .item {
@@ -51,21 +63,58 @@ header, footer {
 
 ul {
     list-style-type: none;
-    display: flex;
+    padding: 0;
 }
 
 li {
-    flex: 1;
+    display: inline;
+    padding: 10px;
 }
 
 body {
     margin: 0px;
 }
 
-h3, footer {
-    margin: 0px;
-}
-
 h2 {
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.nav {
+    flex: 1;
+    text-align: right;
+}
+
+blockquote {
+    font-size: 35px;
+    padding: 50px;
+}
+
+.bar {
+    display: flex;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:active {
+    color: hotpink;
+}
+
