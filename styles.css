@@ -3,10 +3,12 @@
     font-family: "Helvetica";
 }
 
+h1 {
+    margin-top: 60px;
+}
 
-img {
-    width: 120px;
-    height: auto;
+.hero-text {
+    margin-left: 60px;
 }
 
 header, footer {
@@ -36,8 +38,11 @@ header, footer {
 
 #call {
     background-color: #3882F6;
-    margin: 30px;
+    margin: 70px;
     border-radius: 10px;
+    height: 70px;
+    color: #F9FAF8;
+
 }
 
 .blue-border {
@@ -45,7 +50,8 @@ header, footer {
     border-style: solid;
     border-width: 4px;
     border-radius: 30px;
-    
+    height: auto;
+    width: 120px;
 }
 
 .flex-container {
@@ -53,7 +59,7 @@ header, footer {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 70px;
+    margin: 60px 200px 60px 200px;
 }
 
 .item {
@@ -93,7 +99,7 @@ h2 {
 
 blockquote {
     font-size: 35px;
-    padding: 50px;
+    padding: 100px;
 }
 
 .bar {
@@ -116,5 +122,44 @@ a {
 
 a:active {
     color: hotpink;
+}
+
+#CTA {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+
+.top-img {
+    margin-left:100px;
+    margin-right: 60px;
+    height: auto;
+    width: 200px;
+}
+
+button {
+    background-color:#3882F6;
+    border-style: solid;
+    
+    color:  #F9FAF8;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#sub {
+    font-size: 20px;
+    color:#E5E7EB;
+}
+
+#top-btn {
+    border-color:#3882F6
+}
+
+#bottom-btn {
+    border-color: #F9FAF8;
 }
 
