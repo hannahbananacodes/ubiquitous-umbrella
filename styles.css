@@ -1,0 +1,25 @@
+
+#sunglasses {
+    width: 10%;
+    height: auto;
+}
+header, footer {
+    background-color: #1F2937;
+}
+
+#quote {
+    background-color: #E5E7EB; 
+}
+
+#light-text {
+    color: #F9FAF8;
+}
+
+#med-text {
+    color: #E5E7EB;
+}
+
+#dark-text {
+    color: #1F2937;
+}
+
